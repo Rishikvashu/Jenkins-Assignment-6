@@ -1,0 +1,8 @@
+---
+- name: Deploy Kafka Broker Cluster
+  hosts: kafka
+  gather_facts: false
+  tasks:
+    - name: Simulate Kafka Deployment
+      ansible.builtin.debug:
+        msg: "Installing and starting Kafka service on target environment..."

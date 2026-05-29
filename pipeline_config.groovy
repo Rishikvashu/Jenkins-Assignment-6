@@ -2,7 +2,7 @@
 
 // Define a map containing all settings
 def config = [
-    SLACK_CHANNEL_NAME : 'build-status',
+    SLACK_CHANNEL_NAME : '#social',
     ENVIRONMENT        : 'prod',
     CODE_BASE_PATH     : 'env/prod',
     ACTION_MESSAGE     : 'Deploying Kafka Clusters to Production Environment',
