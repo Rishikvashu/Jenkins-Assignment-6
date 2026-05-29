@@ -1,6 +1,6 @@
 ---
 - name: Deploy Kafka Broker Cluster
-  hosts: kafka
+  hosts: kafka_hosts
   gather_facts: false
   tasks:
     - name: Simulate Kafka Deployment
